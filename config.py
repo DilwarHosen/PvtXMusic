@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d")
 BOT_TOKEN = getenv("BOT_TOKEN","5963562690:AAHaE_bGr9ym2Bem6BfKt2KsrB7LyiEmKfU")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002372770070")
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002372770070"))
 BOTADDLOGS = int(getenv("BOTADDLOGS", "-1001775986475")) # LOGGER_ID Id Also Use No Problem
 GBAN_LOGS = int(getenv("GBAN_LOGS", "-1001775986475"))
 GCAST_USERS = list(map(int, getenv("GCAST_USERS", "6079943111").split()))
