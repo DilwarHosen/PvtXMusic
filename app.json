@@ -129,11 +129,12 @@
               "url": "heroku/python"
           },
           {
-              "url": "heroku/nodejs"
-          },
-          {
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
-      "stack": "heroku-22"
-  }
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      }
