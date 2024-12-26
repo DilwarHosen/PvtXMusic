@@ -43,7 +43,7 @@ from AnieXEricaMusic.utils.exceptions import AssistantErr
 from AnieXEricaMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
 from AnieXEricaMusic.utils.inline.play import stream_markup, telegram_markup
 from AnieXEricaMusic.utils.stream.autoclear import auto_clean
-from AnieXEricaMusic.utils.thumbnails import gen_thumb
+from AnieXEricaMusic.utils.thumbnails import get_thumb
 
 active = []
 autoend = {}
